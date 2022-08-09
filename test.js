@@ -1,9 +1,9 @@
-const {people,ages} = require("./index")
-// const te = require("./index")
-console.log(people,ages);
+// const {people,ages} = require("./index")
+// // const te = require("./index")
+// console.log(people,ages);
 
-const os = require("os");
-console.log(os.platform(), os.homedir())
+// const os = require("os");
+// console.log(os.platform(), os.homedir())
 
 
 // const greet = (name) =>{

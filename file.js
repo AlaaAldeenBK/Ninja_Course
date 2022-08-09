@@ -18,38 +18,38 @@ const fs = require("fs");
 //     console.log("File was written");
 // });
 
-if(!fs.existsSync("./assets"))
-{
-    fs.mkdir('./assets',(err)=>{
-        if(err)
-        {
-            console.log(err);
-        }
-        console.log("Folder Created");
-    });
-}
-else
-{
-    fs.rmdir("./assets",(err) =>{
-        if(err)
-        {
-            console.log(err);
-        }
-        console.log("File Deleted");
-    });
-}
+// if(!fs.existsSync("./assets"))
+// {
+//     fs.mkdir('./assets',(err)=>{
+//         if(err)
+//         {
+//             console.log(err);
+//         }
+//         console.log("Folder Created");
+//     });
+// }
+// else
+// {
+//     fs.rmdir("./assets",(err) =>{
+//         if(err)
+//         {
+//             console.log(err);
+//         }
+//         console.log("File Deleted");
+//     });
+// }
 
-if(fs.existsSync("./blog/deletme.txt"))
-{
-    fs.unlink("./blog/deletme.txt",(err)=>
-    {
-        if(err)
-        {
-            console.log(err);
-        }
-        console.log("File deleted");
-    });
-}
+// if(fs.existsSync("./blog/deletme.txt"))
+// {
+//     fs.unlink("./blog/deletme.txt",(err)=>
+//     {
+//         if(err)
+//         {
+//             console.log(err);
+//         }
+//         console.log("File deleted");
+//     });
+// }
 
 
 

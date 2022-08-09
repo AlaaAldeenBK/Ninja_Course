@@ -1,0 +1,19 @@
+{
+  "name": "ninjacrashcourse",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlaaAldeenBK/Ninja_Course.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlaaAldeenBK/Ninja_Course/issues"
+  },
+  "homepage": "https://github.com/AlaaAldeenBK/Ninja_Course#readme"
+}
