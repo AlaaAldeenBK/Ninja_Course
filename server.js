@@ -8,10 +8,11 @@ const curServer = server.createServer((req,res) =>{
     // res.write("<head><link rel=stylesheet href='#'></head>");
     // res.write("<p>Hello everyone</p>");
     // res.write("<p>Hello everyone</p>");
-    fs.readFile("./views/index.html",(err,data)=>{
+    fs.readFile("./blog/views/index.html",(err,data)=>{
         if(err)
         {
             console.log(err);
+            res.end();
         }
         else
         {
@@ -20,7 +21,7 @@ const curServer = server.createServer((req,res) =>{
         }
     });
 
-    res.end();
+    // res.end();
 });
 curServer.listen("3000","localhost", ()=>{
     console.log("Listening for request on port 3000");
