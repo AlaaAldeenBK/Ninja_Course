@@ -5,5 +5,5 @@ const curServer = server.createServer((req,res) =>{
     res.end();
 });
 curServer.listen("3000","localhost", ()=>{
-    console.log("Listening for request");
+    console.log("Listening for request on port 3000");
 });
