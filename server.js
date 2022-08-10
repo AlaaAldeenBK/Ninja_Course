@@ -16,6 +16,7 @@ const curServer = server.createServer((req,res) =>{
         else
         {
             res.write(data);
+            res.end();
         }
     });
 
